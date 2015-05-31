@@ -1,0 +1,195 @@
+body {
+      background-color: #C8C8C8;
+      margin:20px;
+}
+#container {
+	background-color: #FFF ;
+	padding: 10px;
+	margin-top:10px;
+	height: 700px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CCC;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#header {
+	height: 100px;
+	width: 990px;
+	border: 1px solid #CCC;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+#logo {
+
+	height: 90px;
+	width: 189px;
+	margin: 10px;
+	float: left;
+	
+}
+#search_menu{
+	height: 40px;
+	width: 250px;
+
+
+	 float:right;
+
+}
+#search_element{
+   height: 40px;
+   width: 250px;
+
+   margin-top:5px;
+   
+}
+#admin_login{
+ height: 50px;
+ width: 150px;
+ float:right;
+ margin-top:30px;
+ margin-right:-238px;
+ text-align:left;
+}
+#drop_menu{
+ margin-left:30px;
+ margin-bottom:25px;
+ height: 150px;
+ width: 1000px;
+ 
+ float: left; 
+}
+#checkbox_container{
+    margin-top:15px;
+	margin-left:15px;
+    height: 200px; 
+    width: 1000px; 	
+	display: flex;
+    justify-content: space-between;
+
+	
+}
+.checkbox {
+ height: 150px;
+ width: 170px;
+ margin-bottom:30px;
+}
+#list_button{
+    height: 30px; 
+    width: 1000px; 
+  text-align: center;
+  margin-left:-20px;
+  margin-bottom:50px;
+ 
+}
+.clear{
+	clear: both;
+}
+.main-checkbox {
+    display:none;
+}
+.main-checkbox + label.big {
+    padding-left:45px;
+    height:40px;
+    display:inline-block;
+    line-height:40px;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    font-size:20px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.main-checkbox:checked + label.big {
+    background-position:0 -40px;
+}
+label.big {
+    background-image:url(images/checkbox_main.png);
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.main-checkbox-small {
+    display:none;
+}
+.main-checkbox-small + label.small {
+    padding-left:45px;
+    height:20px;
+    display:inline-block;
+    line-height:20px;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    font-size:16px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.main-checkbox-small:checked + label.small {
+    background-position:0 -20px;
+}
+label.small {
+    background-image:url(images/checkbox_main_small.png);
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+button.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: ##E8E8E8;
+	padding: 6px 18px;
+	background: -moz-linear-gradient(
+		top,
+		##E8E8E8 0%,
+		##E8E8E8 50%,
+		##E8E8E8 50%,
+		##E8E8E8 65%,
+		##E8E8E8);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(##E8E8E8),
+		color-stop(0.50, ##E8E8E8),
+		color-stop(0.50, ##E8E8E8),
+		color-stop(0.65, ##E8E8E8),
+		to(#a38923));
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 1px solid #E8E8E8;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 5px rgba(161,142,016,0.6);
+	text-shadow:
+		0px -1px 3px rgba(255,255,255,0.8),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.textbox {
+
+    height: 22px;
+    width: 275px;
+    border: solid 1px #D4D4D4;
+    outline: 0;
+    font: normal 14px/100% Verdana, Tahoma, sans-serif;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #EEEEEE, #EEEEEE 1px, #EEEEEE 25px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 8px;
+}
+.textbox:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 8px;
+}   
